@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  golang-bu:
+    build: .
+    image: golang-bu
+    container_name: golang-bu
+    tty: true
+    volumes:
+       - .:/home/
